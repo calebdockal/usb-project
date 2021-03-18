@@ -1,0 +1,98 @@
+.App {
+  text-align: center;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.image {
+  height: 20vh;
+  display: flex;
+  flex: 1;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  height: 10vh;
+  background-color: gray;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.submitBtn {
+  min-height: 10vh;
+  margin: 10px;
+}
+
+.scrapSection {
+  border: 5px black;
+}
+
+.deleteBtn {
+  width: 30%;
+  border-radius: 10px;
+}
+
+.selection {
+  margin: 20px;
+}
+
+.selectedItem {
+  width: 10px;
+  height: 10px;
+  border-width: 3px;
+  border-color: black;
+}
+.mainBody {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.card {
+  width: 300px;
+  height: 50%;
+  border: 5px solid black;
+  background-color: gray;
+  border-radius: 15px;
+  margin: 10px;
+  margin-bottom: 15px;
+}
+.listCards {
+  justify-content: center;
+  align-items: center;
+}
+
+.oxide {
+  display: flex;
+  flex: 2;
+}
+.assemblyList {
+  margin-bottom: 5px;
+}
+
+.scrapAmount {
+  margin-top: 20px;
+}
