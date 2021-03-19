@@ -97,6 +97,8 @@ function App() {
         amount: amount,
       },
     ]);
+
+    alert("Submitted!");
   };
 
   // This function deletes the information out of the database, and updates the list on the front end to reflect changes
